@@ -11,7 +11,19 @@
     color: #3A3A3A;
 }
 
-/* header section */
+.primary-btn{
+    border-radius: 41px;
+    background: #e02c6d;
+    color: #fff;
+    padding: 10px 24px;
+    gap: 8px;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 700;
+    /* border-color:#e02c6d; */
+}
+
+/* header section styles*/
 
 header{
     padding: 0 140px;
@@ -38,4 +50,46 @@ nav li{
 nav li a{
     text-decoration: none;
     color: #424242;
+}
+
+/* banner section styles */
+
+.banner-section{
+    margin-top: 20vh;
+    max-width: 1250px;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container{
+    /* border: 2px solid green; */
+    width: 50%;
+}
+
+.banner-img-container{
+    padding: 20px 20px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 2px solid violet; */
+    width: 50%;
+    /* align-items: flex-end; */
+}
+
+.banner-section, h1{
+    /* width: 582px; */
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner-section, p{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
 }
