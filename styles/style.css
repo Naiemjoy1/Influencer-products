@@ -1,95 +1,96 @@
-/* Poppins font from google font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-
-*{
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"); * {
+    font-family: Poppins, sans-serif;
 }
 
-.section-title{
+:root{
+    --primary-color: #3a3a3a;
+}
+
+.section-title {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #3A3A3A;
+    color: rgb(58, 58, 58);
 }
 
-.primary-btn{
+.primary-btn {
     border-radius: 41px;
-    background: #e02c6d;
-    color: #fff;
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
     padding: 10px 24px;
     gap: 8px;
     display: inline-flex;
     font-size: 16px;
     font-weight: 700;
-    /* border-color:#e02c6d; */
 }
 
-/* header section styles*/
-
-header{
-    padding: 0 140px;
+header {
+    padding: 0px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
-nav > ul{
+nav > ul {
     display: flex;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 30px;
     font-weight: 500;
     font-size: 1rem;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
-    color: #424242;
+    color: rgb(66, 66, 66);
 }
 
-/* banner section styles */
-
-.banner-section{
-    margin-top: 20vh;
+.banner-section {
     max-width: 1250px;
-    margin: 0 auto;
-    /* border: 2px solid blue; */
+    margin: 0px auto;
     min-height: 400px;
     display: flex;
     justify-content: space-between;
 }
 
-.text-container{
-    /* border: 2px solid green; */
+.text-container {
     width: 50%;
 }
 
-.banner-img-container{
-    padding: 20px 20px;
-    background-image: url(../images/Circle\ design.svg);
+.banner-img-container {
+    padding: 20px;
+    background-image: url("../images/Circle design.svg");
     background-repeat: no-repeat;
-    background-position: center;
-    /* border: 2px solid violet; */
+    background-position: center center;
     width: 50%;
-    /* align-items: flex-end; */
 }
 
-.banner-section, h1{
-    /* width: 582px; */
-    color: #3A3A3A;
+.banner-section, h1 {
+    color: rgb(58, 58, 58);
     font-size: 52px;
     font-weight: 700;
     line-height: 70px;
 }
 
-.banner-section, p{
-    color: #3A3A3A;
+.banner-section, p {
+    color: rgb(58, 58, 58);
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
+    /* margin-top: 10vh; */
+}
+
+.sponsors {
+    margin-top: 10vh;
+}
+
+.sponsors-img-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
 }
